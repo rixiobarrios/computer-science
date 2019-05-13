@@ -80,6 +80,7 @@ function sumOfDivisors(n) {
     if (n % i == 0) {
       result += i;
     }
+    i++
   }
   return result;
 }
