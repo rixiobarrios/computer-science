@@ -5,7 +5,7 @@ const {
   fibonacci,
   coinFlips,
   letterCombinations
-} = require("../../solutions-and-instructor-guides/recursionSolutions");
+} = require("../recursion");
 
 describe("findMax", () => {
   it("should find the largest number in an array", () => {
